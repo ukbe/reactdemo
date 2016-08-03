@@ -1,5 +1,4 @@
 import { Link, IndexLink } from 'react-router';
-import HomeBody from './HomeBody';
 
 var App = React.createClass({
 
@@ -8,7 +7,7 @@ var App = React.createClass({
         return (
 
             <div>
-                <div style={{float: 'left'}}>
+                <div style={{float: 'left', borderRight: 'solid 3px #cccccc'}}>
                     <h1>Navigation</h1>
                     <ul role="nav">
                         <li><IndexLink to="/" activeClassName="active" onlyActiveOnIndex="true">Home</IndexLink></li>

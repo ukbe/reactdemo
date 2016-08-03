@@ -1,4 +1,4 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
 
 a:link,a:visited { color: black; }
@@ -6,4 +6,8 @@ a:link,a:visited { color: black; }
 a.active {
   font-weight: bold;
   color: green;
+}
+
+.test {
+  color: red;
 }

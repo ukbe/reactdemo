@@ -18,17 +18,12 @@ elixir.config.js.browserify.watchify = {
     }
 };
 
-elixir.config.css.watchify = {
-    enabled: true,
-    options: {
-        poll: true
-    }
-};
-
 elixir(function(mix) {
     mix.sass('app.scss').version('css/app.css');
 
     mix.browserify('demoapp-render.js');
 
 });
+
+elixir.Task.find('sass').watch('resources/assets/*/*.scss', ['sass']);
 
