@@ -1,1 +1,1 @@
-{"version":3,"sources":["app.css"],"names":[],"mappings":"AAAA","file":"app.css","sourceRoot":"/source/","sourcesContent":[]}
+{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAGC;EAAkB,aAAa,EAAI;;AAEnC;EACC,kBAAkB;EAClB,aAAa,EACd","file":"app.css","sourcesContent":["// @import \"node_modules/bootstrap-sass/assets/stylesheets/bootstrap\";\n\n\na:link,a:visited { color: black; }\n\na.active {\n  font-weight: bold;\n  color: green;\n}"],"sourceRoot":"/source/"}

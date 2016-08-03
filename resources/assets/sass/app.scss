@@ -1,2 +1,9 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+
+a:link,a:visited { color: black; }
+
+a.active {
+  font-weight: bold;
+  color: green;
+}

@@ -1,2 +1,8 @@
+a:link, a:visited {
+  color: black; }
+
+a.active {
+  font-weight: bold;
+  color: green; }
 
 /*# sourceMappingURL=app.css.map */

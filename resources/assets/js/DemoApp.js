@@ -1,16 +1,26 @@
-var DemoApp = React.createClass(function()  {
+import DemoNavigation from './DemoNavigation';
+import HomeBody from './modules/HomeBody';
 
-     
+var DemoApp = React.createClass({
 
-    render = function() {
+    render: function() {
 
         return (
 
-            <div>Welcome to DemoApp power by React and Reflux</div>
+            <div>
+                <div style={{float:'left', backgroundColor: 'grey'}}><DemoNavigation/></div>
+
+                <div id="content-body">
+
+                    <HomeBody/>
+
+                </div>
+
+            </div>
 
         );
 
     }
 });
 
-module.exports = DemoApp;
+export default DemoApp;
